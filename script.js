@@ -7,7 +7,7 @@ if ("Notification" in window) {
   });
 }
 
-var tiemeoutIds = [];
+var timeoutIds = [];
 
 function notificationReminder() {
   var title = document.getElementById("title").value;
